@@ -4,7 +4,7 @@ It currently will only work on a public github repo:
 
 - args[1]; //Commit Repo(ex: bkauf/slo)
 - args[2]; //Commit SHA
-- args[3]; //Time of code commit
+- args[3]; //Time of code commit: unixtime(seconds)
 
 It will output entries in stdout like the following after it runs. Leadtime is in minutes
 
